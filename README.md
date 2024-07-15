@@ -35,6 +35,7 @@ vfxFinancial is a frontend mobile app developed as part of the technical test fo
     git clone https://github.com/ojoaoneiva/vfxFinancial.git
 
 # Enter the front-end folder:
+    cd vfxFinancial/
     cd stockMarketApp
 
 # Install the app's dependencies:
