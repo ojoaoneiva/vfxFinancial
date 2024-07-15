@@ -26,6 +26,7 @@ vfxFinancial is a frontend mobile app developed as part of the technical test fo
 - [x]  <strong>Search for dates:</strong> Users could input a date in a search bar to request specific dates.
 - [x]  <strong>Image to svg:</strong> Flag images could be changed to SVG files for a more pixel-perfect effect, similar to the swap button icon.
 - [x]  <strong>Pagination:</strong> The list of historical prices could have pagination to limit the number of items shown on each page.
+- [x]  <strong>Dependencies:</strong> To install the dependencies the legacy-peer-deps must be used. This wroks a temporary solution, but it's better to update the testing dependencies to ensure compatibility and long-term stability.
 
 ## How to run the front-end project:
 
@@ -37,7 +38,7 @@ vfxFinancial is a frontend mobile app developed as part of the technical test fo
     cd stockMarketApp
 
 # Install the app's dependencies:
-    npm i
+    npm i --legacy-peer-deps
 
 # Create a .env file following the example of the env.example file to add you API KEY. The Free API Key can be claimed following this https://www.alphavantage.co/support/#api-key , but is important to know that the free API Key only accepts up to 25 requests per day.
 
