@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import CurrencyPicker from '../components/CurrencyPicker';
 import StockList from '../components/StockList';
 import useStockData from '../hooks/useStockData';
-import usdFlag2 from '../../assets/switch';
+import switchIcon from '../../assets/switch';
 import { SvgXml } from 'react-native-svg';
 import { CurrencyContext } from '../contexts/CurrencyContext';
 
@@ -19,13 +19,12 @@ const MainScreen = ({ functionType = 'FX_DAILY' }) => {
 
   return (
     <View style={styles.container}>
-      <Image source={usdFlag2} style={styles.flag} />
       <Text style={styles.title}>Stock Market App</Text>
 
       <View style={styles.header}>
         <CurrencyPicker label="From" testID="fromCurrencyPicker" />
         <TouchableOpacity onPress={switchCurrencies} testID="switchButton">
-          <SvgXml xml={usdFlag2} style={styles.switch} />
+          <SvgXml xml={switchIcon} style={styles.switch} />
         </TouchableOpacity>
         <CurrencyPicker label="To" testID="toCurrencyPicker" />
       </View>

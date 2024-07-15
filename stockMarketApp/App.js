@@ -1,6 +1,5 @@
-
-import { CurrencyProvider } from './src/contexts/CurrencyContext'; // Importando o CurrencyProvider
-import MainScreen from './src/screens/MainScreen'; // Importando o componente HomeScreen
+import { CurrencyProvider } from './src/contexts/CurrencyContext';
+import MainScreen from './src/screens/MainScreen';
 
 const App = () => {
   return (
