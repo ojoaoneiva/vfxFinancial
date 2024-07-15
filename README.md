@@ -51,6 +51,8 @@ vfxFinancial is a frontend mobile app developed as part of the technical test fo
 # The server will start on Expo Development.
 # Use the Expo Go app on your Android or iOS mobile device to enter the given url on the terminal (similar to this exp://192.168.1.3:8081), or use an emulator for desktop viewing.
 
+# Run the tests. Because of the Jest default time limit, the tests will work after the first one:
+    npm run test
 ```
 
 ## Technologies used:
