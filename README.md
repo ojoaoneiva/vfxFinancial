@@ -1,7 +1,7 @@
 # vfxFinancial
 
-<p align="center" style="background-color: #f0f0f0; padding: 30px 100px;">
-  <img src="./stockMarketApp/assets/Screenshot.jpg" alt="Screenshot" width="300">
+<p align="center">
+  <img src="./stockMarketApp//assets//Screenshot.jpg" alt="Screenshot" width="300">
 </p>
 
 API Documentation [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
